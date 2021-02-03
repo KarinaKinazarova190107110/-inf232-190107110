@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="header">
+	<div id="logo" onclick=""><img src="logo1.png" width="60" height="60"></div>
+	<div id="coffee" onclick="change(this)">Coffee</div>
+	<div id="order_online" onclick="change(this)">Order online</div>
+	<div id="about_us" onclick="change(this)">About us</div>
+	<div id="contacts" onclick="change(this)">Contacts</div>
+</div>
+
+<div class="main">
+  <img id="img" src="logo2.png" >
+</div>
+
+<div class="main2">
+	<center><h1>Contacts</h1></center></div>
+	<div class="main3">
+	<p>Lorem ipsum dolor,sit amet consectetur adipisicing elit.</p>
+    <p>elit. Commodi accusantium repellat molestias. </p>
+    <p>Tempoora quod animi voluptatem fugit fempore </p>
+    <p>obcaecati quo amet labore dolorum quae.Ut id animi</p>
+    <p>nesciunt pariatur reprehenderit. </p>
+
+</div>
+
+
+<script type="text/javascript">
+	function change(element){
+	var a= element.innerHTML;
+		switch(a){
+		case "Coffee":
+	document.getElementById("img").src = "logo2.png"
+		img.width = 280;
+        img.height = 280;
+        const ctx = img.getContext('2d');
+		break;
+		case "Order online":
+	document.getElementById("img").src = "logo3.png"
+		break;
+		case "About us":
+	document.getElementById("img").src = "logo4.png"
+		break;
+		case "Contacts":
+	document.getElementById("img").src = "logo4.png"
+		break;
+		}
+	}
+	
+</script>
+
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: url(https://images.pexels.com/photos/2519175/pexels-photo-2519175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	}
+.header{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-size: 27px;
+	background-image: url(https://images.pexels.com/photos/2519175/pexels-photo-2519175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	padding: 1px;
+}
+.main{
+	position: relative;
+	top: 75px;
+	left: 50px;
+}
+.main2{
+	position: relative;
+	top: -150px;
+	left: 50px;
+	color: white;
+}
+.main3{
+	position: relative;
+	top: -150px;
+	left: 530px;
+	color: white;
+	font-size: 20px;
+}
+
+#logo,#coffee,#order_online,#about_us,#contacts{
+	cursor: pointer;
+}
+</style>
+</body>
+</html>
