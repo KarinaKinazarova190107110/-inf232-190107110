@@ -2,6 +2,7 @@ $(document).ready(function() {
 	var oldId = null;
 
 	$('.tabs-controls__link').click(function(e) {
+		
 		e.preventDefault();
 
 		if ($(this).hasClass('tabs-controls__link--active')) {
