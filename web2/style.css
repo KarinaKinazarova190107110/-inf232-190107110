@@ -1,0 +1,44 @@
+body {
+  background: #fff;
+  text-align: center;
+}
+
+a {
+  font-family: Arial ;
+  width:200px;
+  display:block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+	font-family: sans-serif;
+  background: #00A0E0;
+  padding:  30px 50;
+  
+}
+.nav li {
+  display: inline-block;
+  
+}
+.logo{
+   float: left;
+   margin:  5px 200px;
+	}
+	table {
+      width: 30%;
+    }
+    th {
+       height: 100px;
+    }
+    hr{
+    clear: left;
+     margin-top: 50px;
+    }
+h2{
+ font-family: Baskerville Old Face;
+}
+
+
+
+
